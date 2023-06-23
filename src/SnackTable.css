@@ -1,0 +1,44 @@
+.snacks-table-container {
+  margin: 20px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.snacks-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+
+.snacks-table th,
+.snacks-table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+.snacks-table th:first-child,
+.snacks-table td:first-child {
+  border-left: 1px solid #ccc;
+}
+
+.snacks-table th {
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #f2f2f2;
+}
+
+.snacks-table th:hover {
+  background-color: #e6e6e6;
+}
+
+.snacks-table tr:hover {
+  background-color: #f9f9f9;
+}
